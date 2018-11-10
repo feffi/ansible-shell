@@ -1,0 +1,7 @@
+---
+ansible_shell:  [
+  "zsh",
+  "zsh-completions",
+  "bash",
+  "bash-completion"
+]

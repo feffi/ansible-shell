@@ -1,0 +1,7 @@
+---
+- name: Install {{ ansible_shell | join(',') }}
+  pacman:
+    name: "{{ ansible_shell }}"
+    state: present
+  tags:
+    - shell
